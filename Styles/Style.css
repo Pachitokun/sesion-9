@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+body,html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+.img-area {
+    background-image: url(../Images/escenario-de-the-last-of-us_3248x1773_xtrafondos.com.jpg);
+    -webkit-background-size: cover;
+    background-position: center center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: blur(6px);
+    
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-weight: bold;
+    border: 15px inset #fff;
+
+}
+.content p {
+    padding: 0 8%;
+    line-height: 2;
+    color: #adadad;
+}
+.content a {
+    display: inline-block;
+    padding: 10px 10px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+    transition: all .5s ease;
+
+}
+.content a:hover {
+    background: #fff;
+    color:#262626;
+}
